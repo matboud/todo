@@ -1,0 +1,242 @@
+body{
+    background-color: #ecf0f1;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    margin: 0;
+    margin-top: -14px;
+    padding-bottom: 6px;
+}
+
+#header{
+    width: 100%;
+    height: 200px;
+    background-color: #34495e;
+}
+
+
+#container_colors{
+    height: 40px;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+#container_colors input{
+    cursor: pointer;
+}
+
+#black{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+#gray{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #bdc3c7;
+}
+
+#yellow{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #f1c40f;
+}
+
+#red{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #e74c3c;
+}
+
+#blue{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #3498db;
+}
+
+#green{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+
+#add_new{
+    float: right;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 100%;
+    margin-top: -30px;
+    margin-right: 120px;
+    background-color: #ff7676;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#add_todo{
+    width: 705px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: none;
+    margin-top: -60px;
+    box-shadow: 0px 0px 33px -14px black;
+}
+
+#update_todo{
+    width: 705px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: none;
+    margin-top: -60px;
+    box-shadow: 0px 0px 33px -14px black;
+}
+
+.add_title{
+    width: 690px;
+    height: 40px;
+    margin: auto;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid gray;
+    background-color: #ecf0f1;
+}
+
+.input{
+    margin-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 10px;
+    width: 678px;
+    resize: none;
+    background-color: #ecf0f1;
+}
+
+.sendtodo{
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 3px;
+    background-color: #009688;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.none{
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 3px;
+    background-color: #e72719;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+
+#container{
+    width: 800px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 1px;
+    box-shadow: 0px 0px 33px -14px black;
+}
+
+#update{
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -13px;
+    border-radius: 100%;
+    border: 0;
+    background-color: #1abc9c;
+    color: white;
+    display: none;
+}
+
+#delete{
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -13px;
+    border-radius: 100%;
+    border: 0;
+    background-color: #e74c3c;
+    color: white;
+    display: none;
+}
+
+
+.delup{
+    cursor: pointer;
+}
+
+#upload_butt{
+    font-size: 20px;
+    margin-top: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+#delete_butt{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#container_do:hover > .delup{
+    display: block;
+}
+
+fieldset{
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+legend{
+    padding-left: 15px;
+    padding-right: 15px;
+}
